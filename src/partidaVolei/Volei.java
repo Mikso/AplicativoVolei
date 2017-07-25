@@ -5,11 +5,13 @@ package partidaVolei;
 
 import java.util.Date;
 
+import jogoVolei.Jogo;
+
 /**
  * @author Bruno
  *
  */
-public class Volei {
+public class Volei extends Jogo{
 	private Date dtpartida;
 	private String nomeGanhador;
 	
