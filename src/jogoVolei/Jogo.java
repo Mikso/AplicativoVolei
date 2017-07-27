@@ -10,7 +10,6 @@ import jogadorVolei.Jogador;
 
 /**
  * @author Bruno
- * Testando o caso
  *
  */
 public class Jogo extends Jogador{
