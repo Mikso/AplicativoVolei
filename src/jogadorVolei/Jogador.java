@@ -12,31 +12,16 @@ import java.util.Date;
  */
 
 public class Jogador {
-	private String nome = null;
-	private Date dsnasc = null;
-	private int idade = 0;
+	private String nome;
+	private Date dsnasc;
+	private int idade;
 	private ArrayList<String> jogadores = new ArrayList<>();
-	private ArrayList<Integer> idades = new ArrayList<>();
-	private ArrayList<Date> datas = new ArrayList<>();
 	
-	public void inserirJogador(){
+	void inserirJogador(){
 		Jogador jg = new Jogador();
 		
-		System.out.println("Hora de informar os jogadores, informe o primeiro player");
-		jg.setNome(nome);
-		jogadores.add(nome);
-		jg.setIdade(idade);
-		idades.add(idade);
-		jg.setDsnasc(dsnasc);
-		datas.add(dsnasc);
+		System.out.println("Hora de informar os jogadores");
 		
-		System.out.println("Agora insira o segundo jogador");
-		jg.setNome(nome);
-		jogadores.add(nome);
-		jg.setIdade(idade);
-		idades.add(idade);
-		jg.setDsnasc(dsnasc);
-		datas.add(dsnasc);
 		
 	}
 	
@@ -62,6 +47,9 @@ public class Jogador {
 	}
 	public ArrayList<String> getJogadores() {
 		return jogadores;
+	}
+	public void setJogadores(ArrayList<String> jogadores) {
+		this.jogadores = jogadores;
 	}
 	
 	
