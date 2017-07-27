@@ -4,15 +4,17 @@
 package jogoVolei;
 
 import java.util.Scanner;
+
 import jogadorVolei.Jogador;
+
 
 /**
  * @author Bruno
  * Testando o caso
  *
  */
-public class Jogo {
-	private int numero = 0;
+public class Jogo extends Jogador{
+	private int numero;
 	private Scanner ler = new Scanner(System.in);
 	
 	public void iniciarJogo(){
@@ -20,10 +22,6 @@ public class Jogo {
 		numero = ler.nextInt();
 		setNumero(numero);
 		
-		
-		Jogador n = new Jogador();
-		n.inserirJogador();
-	
 	}
 	
 

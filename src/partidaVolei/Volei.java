@@ -12,8 +12,8 @@ import jogoVolei.Jogo;
  *
  */
 public class Volei extends Jogo{
-	private Date dtpartida = null;
-	private String nomeGanhador = null;
+	private Date dtpartida;
+	private String nomeGanhador;
 	
 	
 	public Date getDtpartida() {
