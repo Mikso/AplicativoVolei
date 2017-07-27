@@ -11,7 +11,7 @@ import jogoVolei.Jogo;
  * @author Bruno
  *
  */
-public class Volei extends Jogo{
+public class Volei{
 	private Date dtpartida;
 	private String nomeGanhador;
 	

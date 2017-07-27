@@ -5,14 +5,14 @@ package jogoVolei;
 
 import java.util.Scanner;
 
-import jogadorVolei.Jogador;
+import jogadorVolei.Jogador;;
 
 
 /**
  * @author Bruno
  *Teste
  */
-public class Jogo extends Jogador{
+public class Jogo {
 	private int numero;
 	private Scanner ler = new Scanner(System.in);
 	
@@ -20,6 +20,9 @@ public class Jogo extends Jogador{
 		System.out.println("Partida de numero?");
 		numero = ler.nextInt();
 		setNumero(numero);
+		
+		Jogador j = new Jogador();
+		j.InserirJogador();
 		
 	}
 	

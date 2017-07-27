@@ -17,7 +17,7 @@ public class Jogador {
 	private int idade;
 	private ArrayList<String> jogadores = new ArrayList<>();
 	
-	void inserirJogador(){
+	public void inserirJogador(){
 		Jogador jg = new Jogador();
 		
 		System.out.println("Hora de informar os jogadores");
